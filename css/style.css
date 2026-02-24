@@ -126,8 +126,13 @@ body{
     font-weight: 700;
     font-style: italic;
 }
+.noto-serif-display-bold-italic{
+    font-family: "Noto Serif Display", serif;
+    font-weight: 700;
+    font-style: italic;
+}  
 .noto-serif-display-regular-h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-family: "Noto Serif Display", serif;
     font-weight: 700;
     font-style: normal;
@@ -139,7 +144,7 @@ font-family: "Noto Serif Display", serif;
 }  
 
 h2{
-    font-size: 2.5em;
+    font-size: 2.3em;
     font-family: "Noto Serif Display", serif;
     font-weight: 700;
     font-style: italic;
@@ -156,7 +161,7 @@ h5{
 }
 p{
     color: var(--main-verde-color);
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.1em;
 }
 
@@ -296,9 +301,22 @@ ol li{
     /* text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); */
 }
 
+#brillovisual-1 h1{
+    font-size: 4em;
+    font-family: "Noto Serif Display", serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 2%;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
 #brillovisual-1 h2, #brillovisual-1 h3{
     color: white;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+#brillovisual-1 h3{
+    font-size: 1.3em;
+    line-height: 1.3em;
 }
 
 .bono-especial{
@@ -334,10 +352,31 @@ ul {
     font-weight: 700;
     font-style: normal;
 }
+#brillovisual-3 h3{
+    font-size: 1.3em;
+}
+#brillovisual-4 h3{
+    font-size: 1.7em;
+}
+#brillovisual-4 p {
+    line-height: 1.1em;
+    font-size: 1.3em;
+}
+#brillovisual-4 .fondo-rosa h3{
+    font-size: 1.4em;
+}
+#brillovisual-4 .fondo-rosa p {
+    line-height: 1.1em;
+    font-size: 1em;
+}
+#brillovisual-6 p{
+    line-height: 1.1em;
+    font-size: 1em;
+}
 
 #brillovisual-10 li, #brillovisual-10 p{
     line-height: 1.1em;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 /**********************QUIEN SOY***********************/
@@ -471,8 +510,8 @@ div.enlace a:hover {
     height: 125px;
     width: auto;
 }
-#productos-digitales, #portafolio, #contactame, #esto-es-para-ti, #que-aprenderas, #bono, #final-precio, #brillovisual-2, #brillovisual-4, #brillovisual-6, #brillovisual-8, #brillovisual-10{
-    background: rgba(239, 219,212, 0.3);
+#productos-digitales, #portafolio, #contactame, #esto-es-para-ti, #que-aprenderas, #bono, #final-precio, #brillovisual-2, #brillovisual-6, #brillovisual-8, #brillovisual-10{
+    background: rgba(239, 219,212, 0.6);
 }
 /*********************PORTAFOLIO*********************/
 #portafolio h6 {
@@ -563,8 +602,13 @@ textarea {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");    
 }
 .fondo-rosa{
-    background: rgba(239, 219, 212, 0.4);
+    background: rgba(239, 219, 212, 0.6);
     border:0;
+    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
+    
+}
+.borde-cuadrado{
+    border: 1px solid var(--main-verde-color);
 }
 .card-title{
     color:var(--main-verde-color); 
@@ -610,7 +654,7 @@ textarea {
     list-style-image: url('../img/servicios/icono-brillo.png') !important;
 }
 .icono-caracol ul li, .icono-caracol ul p{
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.1em;
 }
 .usd{
@@ -761,6 +805,9 @@ a.back-to-top:hover {
     }
     .diseno-logos h3{
         font-size: 1.2em;
+    }
+    div.enlace a {
+        font-size: 1em;
     }
 
 }
@@ -916,6 +963,9 @@ a.back-to-top:hover {
 }
 
 @media (max-width: 576px){
+    #brillovisual-1 h1{
+        font-size: 2em;
+    }
     h2{
         font-size: 1.9em;
     }
