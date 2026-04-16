@@ -264,10 +264,9 @@ ol li{
     border-width: 5px !important;
 }
 .nombre-testimonio{
-    color: var(--main-azul-color);
+    color: var(--main-verde-color);
     font-weight: bold;
     font-style: italic;
-    
 }
 .usuario{
     font-weight: 600;
@@ -424,6 +423,15 @@ div.enlace a {
 }
 div.enlace a:hover {
     background-color: var(--main-verde-color);
+}
+
+div a.usuario {
+    color: var(--main-azul-color);
+    font-weight: 600;
+    font-size: 1.1em;
+}
+div a.usuario:hover {
+    color: var(--main-verde-color);
 }
 /**********************PRODUCTOS DIGITALES****************/
 .carousel-item{
